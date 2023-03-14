@@ -9,7 +9,11 @@
 <body>
 <?php
 
-    echo "Hello world";
+    $voornaam = "Marijn";
+    $achternaam = "Bary";
+    $leeftijd = 17;
+
+    echo $voornaam, $achternaam, $leeftijd;
 
 ?>
     
