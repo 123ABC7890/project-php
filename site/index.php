@@ -9,14 +9,25 @@
 <body>
 <?php
 
-    $mijnGegevens = [
-        "naam" => "Marijn",
-        "achterNaam" => "Bary",
-        "leeftijd" => 17
-
+    $spongebob_main_characters = [
+        "SpongeBob" => [
+            "age" => 12,
+            "job" => "fry cook"
+        ],
+        "Patrick" => [
+            "age" => 12,
+            "job" => "unemployed"
+        ],
+        "Sandy" => [
+            "age" => 25,
+            "job" => "scientist"
+        ],
+        "Squidward" => [
+            "age" => 35,
+            "job" => "cashier"
+        ]
     ];
-
-    print_r($mijnGegevens);
+    echo $spongebob_main_characters["Sandy"]["age"];
 
 ?>
     
