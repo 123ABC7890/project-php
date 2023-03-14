@@ -9,11 +9,9 @@
 <body>
 <?php
 
-    $voornaam = "Marijn";
-    $achternaam = "Bary";
-    $leeftijd = 17;
-
-    echo $voornaam, $achternaam, $leeftijd;
+    $tvShow = "Family Guy";
+    
+    echo "<h1>$tvShow</h1>";
 
 ?>
     
