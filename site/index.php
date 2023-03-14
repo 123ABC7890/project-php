@@ -9,10 +9,11 @@
 <body>
 <?php
 
-    $tvShow = "Family Guy";
-    
-    echo "<h1>$tvShow</h1>";
+    $geboortejaar = 2008;
 
+    if($geboortejaar > 1997 && $geboortejaar < 2012) {
+        echo "Jij behoort tot de generatie Z, (Zoomer)";
+    }
 ?>
     
 </body>
