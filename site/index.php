@@ -9,11 +9,9 @@
 <body>
 <?php
 
-    $geboortejaar = 2008;
+    $mijnGegevens = ["Bart", 78, TRUE, 3.4];
+    echo $mijnGegevens[0];
 
-    if($geboortejaar > 1997 && $geboortejaar < 2012) {
-        echo "Jij behoort tot de generatie Z, (Zoomer)";
-    }
 ?>
     
 </body>
