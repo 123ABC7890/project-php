@@ -9,8 +9,14 @@
 <body>
 <?php
 
-    $mijnGegevens = ["Bart", 78, TRUE, 3.4];
-    echo $mijnGegevens[0];
+    $mijnGegevens = [
+        "naam" => "Marijn",
+        "achterNaam" => "Bary",
+        "leeftijd" => 17
+
+    ];
+
+    print_r($mijnGegevens);
 
 ?>
     
